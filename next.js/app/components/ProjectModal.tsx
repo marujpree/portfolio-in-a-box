@@ -92,7 +92,6 @@ export function ProjectModal({ project, onClose }: ProjectModalProps) {
           </h2>
           <button
             type="button"
-            onClick={onClose}
             className="shrink-0 rounded-xl p-2 text-[var(--muted)] transition-colors hover:bg-[var(--accent-soft)] hover:text-[var(--foreground)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]"
             aria-label="Close modal"
             onClick={handleClose}
